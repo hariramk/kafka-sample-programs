@@ -9,8 +9,9 @@ import org.apache.kafka.clients.producer.ProducerRecord;
 
 import com.google.common.io.Resources;
 
+// This method will send the given message to a given kakka topic
 public class EMResolvedkafkaProducer {
-	public void sendResolved(String topic, String message) throws IOException {
+	public static void sendResolved(String topic, String message) throws IOException {
 
 		// set up the producer
 		KafkaProducer<String, String> producer;
