@@ -1,4 +1,4 @@
-bootstrap.servers=localhost:9092
+bootstrap.servers=rum1.fyre.ibm.com:6667
 acks=all
 retries=0
 batch.size=16384
